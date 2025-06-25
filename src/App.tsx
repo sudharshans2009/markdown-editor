@@ -24,7 +24,6 @@ import {
   Hash,
   Quote,
   Minus,
-  Sparkles,
   Monitor,
   ExternalLink,
   FileText,
