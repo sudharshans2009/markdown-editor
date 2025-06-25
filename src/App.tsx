@@ -380,7 +380,7 @@ function AppContent() {
           </p>
         </div>
 
-        <Tabs value={activeTab} onValueChange={setActiveTab} className="h-full">
+        <Tabs value={activeTab} onValueChange={setActiveTab} defaultValue="split" className="h-full">
           <TabsList className="grid w-full grid-cols-3 mb-6">
             <TabsTrigger value="editor" className="flex items-center gap-2">
               <Edit3 className="h-4 w-4" />
